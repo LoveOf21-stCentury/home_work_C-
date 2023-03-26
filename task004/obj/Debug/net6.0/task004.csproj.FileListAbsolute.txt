@@ -1,0 +1,15 @@
+/Users/angelinabauman915/Desktop/c#_homework/task004/bin/Debug/net6.0/task004
+/Users/angelinabauman915/Desktop/c#_homework/task004/bin/Debug/net6.0/task004.deps.json
+/Users/angelinabauman915/Desktop/c#_homework/task004/bin/Debug/net6.0/task004.runtimeconfig.json
+/Users/angelinabauman915/Desktop/c#_homework/task004/bin/Debug/net6.0/task004.dll
+/Users/angelinabauman915/Desktop/c#_homework/task004/bin/Debug/net6.0/task004.pdb
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.csproj.AssemblyReference.cache
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.AssemblyInfoInputs.cache
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.AssemblyInfo.cs
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.csproj.CoreCompileInputs.cache
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.dll
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/refint/task004.dll
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.pdb
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/task004.genruntimeconfig.cache
+/Users/angelinabauman915/Desktop/c#_homework/task004/obj/Debug/net6.0/ref/task004.dll
