@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = task013
+<<<<<<< HEAD
 build_property.ProjectDir = /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/
+=======
+build_property.ProjectDir = /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_C-/home_work_C-/home_work_2/task013/
+>>>>>>> 577eeb3bb796c49a7d801f9a4b4e489a00b539e9

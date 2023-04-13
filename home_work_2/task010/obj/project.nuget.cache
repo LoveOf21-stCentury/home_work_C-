@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kY3vXEHSH+8lzn9xFLmzQ3kjCyjs/UVC/6FSOXN2bbgpnf/YkeQuBg10AysLD9IOxnb6V2DigbOucK6HVDwQ+g==",
   "success": true,
   "projectFilePath": "/Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task010/task010.csproj",
+=======
+  "dgSpecHash": "TqZMdBtH+4Qaz780WUaXY2bt1R3C2xCaPH3kNwDCqFtst4aj+OSCXahOZaO4ivgCtRHODPeLNjw6cFr/q0lppA==",
+  "success": true,
+  "projectFilePath": "/Users/angelinabauman915/Desktop/C#/c#_homework/home_work_C-/home_work_C-/home_work_2/task010/task010.csproj",
+>>>>>>> 577eeb3bb796c49a7d801f9a4b4e489a00b539e9
   "expectedPackageFiles": [],
   "logs": []
 }

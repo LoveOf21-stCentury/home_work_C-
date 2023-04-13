@@ -13,6 +13,7 @@
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_C-/home_work_C-/home_work_2/task013/obj/Debug/net6.0/task013.pdb
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_C-/home_work_C-/home_work_2/task013/obj/Debug/net6.0/task013.genruntimeconfig.cache
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_C-/home_work_C-/home_work_2/task013/obj/Debug/net6.0/ref/task013.dll
+<<<<<<< HEAD
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/bin/Debug/net6.0/task013
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/bin/Debug/net6.0/task013.deps.json
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/bin/Debug/net6.0/task013.runtimeconfig.json
@@ -28,3 +29,5 @@
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/obj/Debug/net6.0/task013.pdb
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/obj/Debug/net6.0/task013.genruntimeconfig.cache
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/obj/Debug/net6.0/ref/task013.dll
+=======
+>>>>>>> 577eeb3bb796c49a7d801f9a4b4e489a00b539e9
