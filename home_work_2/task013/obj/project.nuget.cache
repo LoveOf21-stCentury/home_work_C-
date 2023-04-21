@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "0+8s5Q64aevDMCpbKh6GGzCglnw+GRylqMcuoutbj7RE7ChWpUGry9RfSNVXY+qIUPMgcQIfhD0ixkF60B1BCg==",
+  "dgSpecHash": "1DRJ8aXwI9kY5bZOY43/NrRiIziFxj/6fxqXgQ0q7mLStWWo0dUqewkAc5f2FRWDnH8lQLbfmOehvErh7jZ7mA==",
   "success": true,
-  "projectFilePath": "/Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/task013.csproj",
-=======
-  "dgSpecHash": "63LH64OID1pcx27HLKX0ll5swJhqmC/3zJr5tsPC7Lzfqpb7XOnNrchhhcdoNQJz1Xp7uVaFBYZhAOygvJLNQw==",
-  "success": true,
-  "projectFilePath": "/Users/angelinabauman915/Desktop/C#/c#_homework/home_work_C-/home_work_C-/home_work_2/task013/task013.csproj",
->>>>>>> 577eeb3bb796c49a7d801f9a4b4e489a00b539e9
+  "projectFilePath": "C:\\Users\\User\\Desktop\\home_work_C-\\home_work_2\\task013\\task013.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\User\\Desktop\\home_work_C-\\home_work_2\\task013\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

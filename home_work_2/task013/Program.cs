@@ -13,7 +13,7 @@ if (int.TryParse(Console.ReadLine(), out x))
   }
   else
   {
-    for (; x >= 1000; x /= 10) ;
+    for (; x >= 1000; x /= 10);
     System.Console.WriteLine("Третья цифра Вашего числа: " + x % 10);
   }
 }

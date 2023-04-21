@@ -31,3 +31,18 @@
 /Users/angelinabauman915/Desktop/C#/c#_homework/home_work_2/task013/obj/Debug/net6.0/ref/task013.dll
 =======
 >>>>>>> 577eeb3bb796c49a7d801f9a4b4e489a00b539e9
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\bin\Debug\net6.0\task013.exe
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\bin\Debug\net6.0\task013.deps.json
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\bin\Debug\net6.0\task013.runtimeconfig.json
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\bin\Debug\net6.0\task013.dll
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\bin\Debug\net6.0\task013.pdb
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.AssemblyInfo.cs
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.dll
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\refint\task013.dll
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.pdb
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\task013.genruntimeconfig.cache
+C:\Users\User\Desktop\home_work_C-\home_work_2\task013\obj\Debug\net6.0\ref\task013.dll
