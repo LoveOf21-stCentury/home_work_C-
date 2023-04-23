@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\bin\Debug\net6.0\task027.exe
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\bin\Debug\net6.0\task027.deps.json
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\bin\Debug\net6.0\task027.runtimeconfig.json
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\bin\Debug\net6.0\task027.dll
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\bin\Debug\net6.0\task027.pdb
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.AssemblyInfo.cs
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.dll
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\refint\task027.dll
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.pdb
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\task027.genruntimeconfig.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task027\obj\Debug\net6.0\ref\task027.dll
