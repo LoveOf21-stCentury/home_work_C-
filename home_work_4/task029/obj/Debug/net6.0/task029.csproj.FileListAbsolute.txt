@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.AssemblyInfo.cs
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\bin\Debug\net6.0\task029.exe
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\bin\Debug\net6.0\task029.deps.json
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\bin\Debug\net6.0\task029.runtimeconfig.json
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\bin\Debug\net6.0\task029.dll
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\bin\Debug\net6.0\task029.pdb
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.dll
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\refint\task029.dll
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.pdb
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\task029.genruntimeconfig.cache
+C:\Users\User\Desktop\home_work_C-\home_work_4\task029\obj\Debug\net6.0\ref\task029.dll
