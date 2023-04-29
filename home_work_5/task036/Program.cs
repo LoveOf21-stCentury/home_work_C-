@@ -26,7 +26,7 @@ int GetPositiveSum(int[] numbers)
 
     for (int i = 0; i < numbers.Length; i++)
     {
-        if (numbers[i] > 0) sum += numbers[i];
+        if (i % 2 != 0) sum += numbers[i];
     }
     return sum;
 }
@@ -39,7 +39,7 @@ void Task36()
     FillArry(numbers);
     PrintArray(numbers);
     int sum = GetPositiveSum(numbers);
-    System.Console.WriteLine($"sum of positive elements {sum}");
+    System.Console.WriteLine($"sum elements with odds indexes {sum}");
 }
 
 Task36();
