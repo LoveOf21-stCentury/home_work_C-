@@ -5,9 +5,9 @@ void FillArray(double[] numbers)
 {
     Random rnd = new Random();
     System.Console.WriteLine("array is: ");
-    for (int i = 0; i < nums.Length; i++)
+    for (int i = 0; i < numbers.Length; i++)
     {
-        nums[i] = rnd.NextDouble(-9, 10);
+        numbers[i] = rnd.NextDouble(-9, 10);
     }
     /* for (int i = 0; i < nums.Length; i++)
     {
@@ -52,7 +52,7 @@ void Task38()
     int[] numbers = new double[size];
     FillArray(numbers);
     PrintArray(numbers);
-    System.Console.WriteLine($"difference btw nums is: {SearchDif(numbers)}");
+    //System.Console.WriteLine($"difference btw nums is: {SearchDif(numbers)}");
 }
 
 Task38();
