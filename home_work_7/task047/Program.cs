@@ -29,20 +29,6 @@ void Print(double[,] arr)
     }
 }
 
-/* double[,] FillMatrix(int rows, int cols)
-{
-    double[,] array = new double[rows, cols];
-    Random rand = new Random();
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < cols; j++)
-        {
-            array[i, j] = Math.Round(rand.Next(-100, 101) * 0.1, 1);
-        }
-    }
-    return array;
-} */
-
 void Task047()
 {
     Print(FillDoubleArray(3, 4));
