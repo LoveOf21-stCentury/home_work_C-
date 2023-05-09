@@ -5,63 +5,33 @@
 8 4 2 4
 17 -> такого числа в массиве нет */
 
-string Input(string text)
+Console.WriteLine("How long will the array be: ");
+int m = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine();
+int[,] array = new int[m, n];
+
+for (int i = 0; i < array.GetLength(0); i++)
 {
-    Console.Write($"{text} ");
-    return Console.ReadLine();
+    for (int j = 0; j < array.GetLength(1); j++)
+        array[i, j] = Convert.ToInt32(new Random().Next(0, 21));
 }
 
-int[,] FillDoubleArray(int m, int n)
+for (int i = 0; i < array.GetLength(0); i++)
 {
-    int[,] arr = new int[m, n];
-
-    Random rnd = new Random();
-    for (int i = 0; i < m; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
-            arr[i, j] = rnd.Next(0, 10);
-        }
-    }
-    return arr;
+    for (int j = 0; j < array.GetLength(1); j++)
+        Console.Write($"{array[i, j]} ");
+    Console.WriteLine();
 }
+Console.WriteLine();
 
-void Print(int[,] arr)
+Console.WriteLine("Coordinates of your element in array");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+if (a > m && b > n)
+    Console.WriteLine("Nothing ");
+else
 {
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-            Console.Write($"{arr[i, j]} ");
-        System.Console.WriteLine();
-    }
+    object c = array.GetValue(a, b);
+    Console.WriteLine(c);
 }
-
-int[,] UserInput(int[,] arr)
-{
-    int UserNumb = Convert.ToInt32(Input("Your num: "));
-    for (int i = 0; i < arr.GetLength(0); i++)
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            if (arr[i] == UserNumb && arr[j] == UserNumb)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.White;
-            }
-            Console.Write($"{arr[i, j]} ");
-        }
-    System.Console.WriteLine();
-    return arr;
-}
-
-    Print(FillDoubleArray(3, 4));
-
-void Task050()
-{
-    UserInput(arr);
-}
-
-Task050();
-
