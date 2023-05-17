@@ -5,16 +5,13 @@
 8 4 2 4
 Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3. */
 
-int[,] CreateTwoArray(int m, int n)
+void CreateTwoArray(int[,] array)
 {
-    int[,] array = new int[m, n];
-
     for (int i = 0; i < array.Length; i++)
         for (int j = 0; j < array.Length; j++)
         {
             array[i, j] = new Random().Next(0, 10);
         }
-    return array;
 }
 
 void Print(int[,] array)
@@ -27,18 +24,29 @@ void Print(int[,] array)
     }
 }
 
-int FindMiddleOfArethMean(int[,] array)
+void FindMiddleOfArethMean(int[,] array)
 {
     double[] res = { 0 };
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
+        {
             res[i] += array[i, j];
+        }
 
-        res[i] /= n;
+        res[i] /= 3;
     }
-    return res;
+    Console.Write(res);
 }
 
-Print(CreateTwoArray(3, 4));
-FindMiddleOfArethMean(array);
+void Task52()
+{
+    int sizeA = 3;
+    int sizeB = 4;
+    int[,] array = new int[sizeA, sizeB];
+    Print(array);
+    CreateTwoArray(array);
+    FindMiddleOfArethMean(array);
+}
+
+Task52();
