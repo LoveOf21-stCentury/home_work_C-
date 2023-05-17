@@ -7,8 +7,8 @@
 
 void CreateTwoArray(int[,] array)
 {
-    for (int i = 0; i < array.Length; i++)
-        for (int j = 0; j < array.Length; j++)
+    for (int i = 0; i < array.GetLength(0); i++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
             array[i, j] = new Random().Next(0, 10);
         }
@@ -31,12 +31,13 @@ void FindMiddleOfArethMean(int[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            res[i] += array[i, j];
-        }
+            res+= array[i, j];
+            res = res / array[j];
 
-        res[i] /= 3;
+        }
     }
-    Console.Write(res);
+    Console.WriteLine(res);
+    System.Console.WriteLine();
 }
 
 void Task52()
@@ -44,8 +45,8 @@ void Task52()
     int sizeA = 3;
     int sizeB = 4;
     int[,] array = new int[sizeA, sizeB];
-    Print(array);
     CreateTwoArray(array);
+    Print(array);
     FindMiddleOfArethMean(array);
 }
 
