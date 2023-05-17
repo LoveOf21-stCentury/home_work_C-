@@ -8,9 +8,9 @@
 int[,] CreateTwoArray(int m, int n)
 {
     int[,] array = new int[m, n];
-    
-    for (int i = 0; i < m(0); i++)
-        for (int j = 0; j < n(1); j++)
+
+    for (int i = 0; i < array.Length; i++)
+        for (int j = 0; j < array.Length; j++)
         {
             array[i, j] = new Random().Next(0, 10);
         }
@@ -27,13 +27,13 @@ void Print(int[,] array)
     }
 }
 
-void FindMiddleOfArethMean(int[,] array)
+int FindMiddleOfArethMean(int[,] array)
 {
-    double res = 0;
+    double[] res = { 0 };
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
-            res[i] += array[i][j];
+            res[i] += array[i, j];
 
         res[i] /= n;
     }
