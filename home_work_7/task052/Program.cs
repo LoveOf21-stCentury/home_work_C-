@@ -24,7 +24,7 @@ void Print(int[,] array)
     }
 }
 
-void FindMiddleOfArethMean(int[,] array)
+/* void FindMiddleOfArethMean(int[,] array)
 {
     double[] res = { 0 };
     for (int i = 0; i < array.GetLength(0); i++)
@@ -38,7 +38,7 @@ void FindMiddleOfArethMean(int[,] array)
     }
     Console.WriteLine(res);
     System.Console.WriteLine();
-}
+} */
 
 void Task52()
 {
@@ -47,7 +47,7 @@ void Task52()
     int[,] array = new int[sizeA, sizeB];
     CreateTwoArray(array);
     Print(array);
-    FindMiddleOfArethMean(array);
+    //FindMiddleOfArethMean(array);
 }
 
 Task52();
