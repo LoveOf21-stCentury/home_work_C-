@@ -35,7 +35,6 @@ void Print(int[,] array)
 void SortMarix(int[,] array, int row, int column)
 {
     int temp = 0;
-
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < column - 1; j++)
