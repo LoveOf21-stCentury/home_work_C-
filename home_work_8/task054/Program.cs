@@ -41,10 +41,10 @@ namespace n
                 System.Console.WriteLine();
             }
 
-            void SortMarix(int[,] array)
+            void SortMarix(int[,] array, int row, int column)
             {
                 //это решение работает не совсем корректно. Оно сортирует весь массив, а не по строчно  
-                var arr = array.Cast<int>().OrderByDescending(a => a).ToArray();
+                /* var arr = array.Cast<int>().OrderByDescending(a => a).ToArray();
 
                 int c = 0;
                 for (int j = 0; j < array.GetLength(0); j++)
@@ -57,14 +57,15 @@ namespace n
                     }
                     Console.WriteLine();
                 }
-                Console.ReadKey();
+                Console.ReadKey(); */
 
                 // это решение тоже работает не совсем корректно, оно перебирает столбцы. Зато построчно. Сломала голову, так и не нашла способа для верного и корректного решения.
-                /* int minRow = 0; 
+                int minRow = 0;
                 int temp = 0;
-                for (int NumCol = 0; NumCol < column; NumCol++)
+                for (int NumRow = 0; NumRow < row; NumRow++)
                 {
-                    for (int NumRow = 0; NumRow < row - 1; NumRow++)
+
+                    for (int NumCol = 0; NumCol < column - 1; NumCol++)
                     {
                         minRow = NumRow;
                         for (int j = NumRow + 1; j < row; j++)
@@ -74,7 +75,7 @@ namespace n
                         array[NumRow, NumCol] = array[minRow, NumCol];
                         array[minRow, NumCol] = temp;
                     }
-                } */
+                }
             }
             void Task054()
             {
@@ -83,7 +84,7 @@ namespace n
                 int[,] array = new int[row, column];
                 FillArray(array);
                 Print(array);
-                SortMarix(array);
+                SortMarix(array, row, column);
                 Print(array);
             }
             Task054();
