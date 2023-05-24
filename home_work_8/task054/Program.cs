@@ -1,4 +1,5 @@
-﻿/* Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+﻿using System.Runtime.InteropServices;
+/* Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 Например, задан массив:
 1 4 7 2
 5 9 2 3
@@ -34,21 +35,80 @@ void Print(int[,] array)
 
 void SortMarix(int[,] array, int row, int column)
 {
+    int minRow = 0;
     int temp = 0;
+    for (int NumCol = 0; NumCol < column; NumCol++)
+    {
+        for (int NumRow = 0; NumRow < row - 1; NumRow++)
+        {
+            minRow = NumRow;
+            for (int j = NumRow + 1; j < row; j++)
+                if (array[j, NumCol] > array[minRow, NumCol])
+                    minRow = j;
+            temp = array[NumRow, NumCol];
+            array[NumRow, NumCol] = array[minRow, NumCol];
+            array[minRow, NumCol] = temp;
+        }
+    }
+
+    /* int temp = 0;
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < column - 1; j++)
         {
-            if (array[i, j] > array[i, j + 1])
+            for (int k = 0; k < column; k++)
             {
-                temp = array[i, j];
-                array[i, j] = array[i, j + 1];
-                array[i, j + 1] = temp;
+                if (array[i, j] < array[i, j + 1])
+                {
+                    temp = array[i, j];
+                    array[i, j] = array[i, j + 1];
+                    array[i, j + 1] = temp;
+                    //int temp = array[i, j];
+                    //array[i, j] = array[i, k];
+                    //array[i, k] = temp;
+
+                }
             }
+
+        }
+    } */
+
+}
+
+/*  int MinRow, Temp;
+    for (int NumCol = 0; NumCol < col; NumCol++) {
+        for (int NumRow = 0; NumRow < row - 1; NumRow++) { 
+            MinRow = NumRow;
+            for (int j = NumRow + 1; j < row; j++)
+                if (arr[j][NumCol] > arr[MinRow][NumCol])
+                   MinRow = j;
+            Temp = arr[NumRow][NumCol];
+            arr[NumRow][NumCol] = arr[MinRow][NumCol]; 
+            arr[MinRow][NumCol] = Temp;
+        }
+    } */
+
+/* void SortMarix(int[,] array)
+{
+    int temp = 0;
+    for (var i = 0; i < array.GetLength(0); i++)
+    {
+        for (var j = 0; j < array.GetLength(1)-1; j++)
+        {
+            for (var k = 0; k < array.GetLength(1); k++)
+            {
+                if (array[i, j] <= array[i, j + 1]) continue;
+
+                int temp = array[i, j];
+                array[i, j] = array[i, k];
+                array[i, k] = temp;
+
+            }
+
         }
     }
 
-}
+} */
 
 void Task054()
 {
@@ -61,3 +121,5 @@ void Task054()
     Print(array);
 }
 Task054();
+/* int[,] array = new int[,] { { 3, 2 }, { 1, 4 }, { 2, 3 } }; */
+
