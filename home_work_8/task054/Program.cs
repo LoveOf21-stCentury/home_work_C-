@@ -8,15 +8,6 @@
 9 5 3 2
 8 4 4 2 */
 
-using System;
-using System.Linq;
-
-namespace n
-{
-    internal class Program
-    {
-        private static void Main(string[] args)
-        {
             void FillArray(int[,] array)
             {
                 for (int i = 0; i < array.GetLength(0); i++)
@@ -43,23 +34,6 @@ namespace n
 
             void SortMarix(int[,] array, int row, int column)
             {
-                //это решение работает не совсем корректно. Оно сортирует весь массив, а не по строчно  
-                /* var arr = array.Cast<int>().OrderByDescending(a => a).ToArray();
-
-                int c = 0;
-                for (int j = 0; j < array.GetLength(0); j++)
-                {
-                    for (int k = 0; k < array.GetLength(1); k++)
-                    {
-                        array[j, k] = arr[c];
-                        Console.Write(array[j, k] + " ");
-                        c++;
-                    }
-                    Console.WriteLine();
-                }
-                Console.ReadKey(); */
-
-                // это решение тоже работает не совсем корректно, оно перебирает столбцы. Зато построчно. Сломала голову, так и не нашла способа для верного и корректного решения.
                 for (int i = 0; i < row; i++)
                 {
                     for (int j = 0; j < column - 1; j++)
@@ -87,7 +61,3 @@ namespace n
                 Print(array);
             }
             Task054();
-        }
-    }
-}
-
