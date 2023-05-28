@@ -60,21 +60,19 @@ namespace n
                 Console.ReadKey(); */
 
                 // это решение тоже работает не совсем корректно, оно перебирает столбцы. Зато построчно. Сломала голову, так и не нашла способа для верного и корректного решения.
-                int minColumn = 0;
-                int temp = 0;
                 for (int i = 0; i < row; i++)
                 {
                     for (int j = 0; j < column - 1; j++)
                     {
-                        minColumn = j;
-                        for (int k = i + 1; i < row; i++)
+                        int maxColumn = j;
+                        for (int k = j + 1; k < column; k++)
                         {
-                            if (array[i, j] > array[i, j])
-                                minColumn = i;
-                            temp = array[i, j];
-                            array[i, j] = array[k, j];
-                            array[k, j] = temp;
+                            if (array[i, maxColumn] < array[i, k])
+                                maxColumn = k;
                         }
+                        int temp = array[i, j];
+                        array[i, j] = array[i, maxColumn];
+                        array[i, maxColumn] = temp;
                     }
                 }
             }
